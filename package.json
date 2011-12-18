@@ -1,0 +1,18 @@
+{
+  "author": "Kris Jordan <krisjordan@gmail.com> (http://krisjordan.com)",
+  "name": "finding-salvation-in-callback-hell",
+  "description": "A Brief Exploration of Paradigms for Asynchronous Sanity",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/KrisJordan/finding-salvation-in-callback-hell.git"
+  },
+  "engines": {
+    "node": "~0.6.0"
+  },
+  "dependencies": {
+    "underscore":   "1.2.1",
+    "async":        "0.1.15",
+    "tamejs":       "0.4.9"
+  }
+}
