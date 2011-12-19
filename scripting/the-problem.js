@@ -2,9 +2,9 @@ var fs = require('fs');
 
 var copyFile = function(source, dest, callback) {
     // Open Source File
-    fs.open('test/a.txt', 'r', function(err, sourceFd) {
+    fs.open(source, 'r', function(err, sourceFd) {
         // Open Destination File
-        fs.open('test/b.txt', 'w', function(err, destFd) {
+        fs.open(dest, 'w', function(err, destFd) {
             var readNext = function() {
                 // Read in to Buffer
                 fs.read(sourceFd, new Buffer(8), 0, 8, null, function(err,bytesRead,buffer) {
