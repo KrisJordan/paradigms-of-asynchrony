@@ -49,6 +49,7 @@ var copyFile = function(source, dest, callback) {
         fs.close(destFd, fileCloseCallback);
     };
 
+    // Begin the Process
     openSource();
 };
 
