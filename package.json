@@ -1,11 +1,11 @@
 {
   "author": "Kris Jordan <krisjordan@gmail.com> (http://krisjordan.com)",
-  "name": "finding-salvation-in-callback-hell",
-  "description": "A Brief Exploration of Paradigms for Asynchronous Sanity",
+  "name": "paradigms-of-asynchrony",
+  "description": "Finding salvation in callback hell, a brief study.",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url":  "git://github.com/KrisJordan/finding-salvation-in-callback-hell.git"
+    "url":  "git://github.com/KrisJordan/paradigms-of-asynchrony.git"
   },
   "engines": {
     "node": "~0.6.0"
