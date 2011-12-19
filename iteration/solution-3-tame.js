@@ -41,6 +41,7 @@ var asyncMap = function( arr, fnToMap, callback ) {
     callback(null, results);
 };
 
+// Roughly what tame.js must be translating this to.
 var asyncMap = function( arr, fnToMap, callback) {
     var results = [],
         i = 0;
